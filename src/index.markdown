@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>WomanTech</title>
+    <!--Bootstrap 5 Links -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="page-wrapper"><!--used to format a webpage. It allows you to add margins and center the content on the page -->
+      <!--Header -->
+      <header id="header">
+        <!--Logo -->
+        <div class="logo">
+          <img src="https://womenintech.je/wp-content/uploads/2018/12/Women-in-Tech-Logo_WIT-logo-pink.png" alt="women in tech logo">
+        </div>
+        <!--Navbar -->
+<nav id="nav-bar">
+  <!--Menu List -->
+          <ul>
+            <li><a class="nav-link" href="#about-us">About Us</a></li>
+            <li><a class="nav-link" href="#mission">Mission</a></li>
+            <li><a class="nav-link" href="#impact">Impact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--Hero Img -->
+      <section id="hero-img">
+        <img class="image" src="https://media.licdn.com/dms/image/D4D1EAQFJUEgSu7ZZ-Q/event-background-image-crop_720_1280/0/1680279230876?e=2147483647&v=beta&t=-sdXoabMuktE5H5eou-IYeuzqKR2SUiVycldLixaM4A">
+    </section>
+      <!--Hero section -->
+    <section id="hero">
+       <h1>On a mission to Empower<br>5 million Women and Girls by 2030</h1>
+      <br>
+      <p><strong>We promote girls’ and women’s empowerment around the world, with a focus on four main pillars:<br>Education, Business, Digital Inclusion and Advocacy.</strong></p><br>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+      <!--About us -->
+      <div class="container">
+        <!--Containers are used to pad the content inside of them-->
+         <div class="align-self-center"><!--Aligned flex item --><h1>We’re on a mission to empower 5 MILLION WOMEN AND GIRLS by 2030, meeting 5 SDG’s</h1></div>
+    </div>
+         <div class="card mb-3" id="about-us"><!--mb-3=>margin bottom 3 -->
+  <img src="https://www.pwc.co.uk/women-in-technology/women-In-tech-new.jpg" class="card-img-top" alt="women tasks picture">
+  <div class="card-body">
+    <h5 class="card-title">Who we are?</h5>
+    <p class="card-text">Women in Tech is the world’s leading organization for Inclusion, Diversity & Equity in STEAM. Our community counts over 200.000 members across the world with chapters in all 6 continents. With our Head Office in Paris, we are a Global Movement with chapters in 6 continents, counting over 200.000 members.
+Our community is represented by persons of all abilities – regardless of gender, race, ethnicity, class, age or sexual orientation.</p>
+  </div>
+</div>
+</div>
+    <!--Mission -->
+      <div class="container">
+    <div class="align-self-center" id="mission"><h1>We’re on a mission to empower 5 MILLION WOMEN AND GIRLS by 2030, meeting 5 SDG’s</h1></div>
+    </div>
+      <div class="container ">
+      <div class="card mb-3" style="border:0;" >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://women-in-tech.org/wp-content/uploads/2020/03/womenintech-pillars-sdgs.png" class="img-fluid rounded-start" alt="pillars image">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Our Mission</h5>
+        <p class="card-text">The UN Sustainable development has set 17 goals to transform our World by 2030. Goal#5 is to achieve gender equality and empower women and girls. The Tech field is one of its main targets. Women in Tech® fully support the UN’s Sustainable development objectives by contributing to 5 of the 17 goals:
+
+#4: Quality Education
+#5: Achieve gender equality and empower all women and girls
+#8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.
+#9: Industry, Innovation and Infrastructure
+#10: Reduced Inequalities</p>
+
+</div>
+</div>
+</div>
+</div>
+    </div>
+    <!--Impact -->
+      <div class="container">
+    <div class="align-self-center"><h1>IMPACTING LIVES</h1></div>
+    </div>
+ <div class="container">
+       <section id="impact">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <!--Education -->
+  <div class="col">
+    <div class="card">
+      <img src="https://women-in-tech.org/wp-content/uploads/2019/10/womenintech-north-macedonia-dina.jpg" class="card-img-top" alt="Involving World leaders">
+      <div class="card-body">
+        <h5 class="card-title">Skilling with Education</h5>
+        <p class="card-text">“ I was the owner of a hostel with a 18 month baby when I applied for the Women in Tech Coding Camp in 2018. It gave me the courage to skill myself and become a front-end developer. Today I am a managing director of an IT firm in Skopje.”</p>
+      </div>
+    </div>
+  </div>
+  <!--Water in zambia-->
+  <div class="col">
+    <div class="card">
+      <img src="https://women-in-tech.org/wp-content/uploads/2021/04/Zambia-chapter-drone-and-water.jpg" class="card-img-top" alt="bringing water in Zambia">
+      <div class="card-body">
+        <h5 class="card-title">Bringing water to a rural area in Zambia</h5>
+        <p class="card-text">Women in Tech Zambia has opened a center in a rural area 2hrs from Lusaka. Besides teaching children how to fly drones, we gave the community access to WATER, thanks to the water pipe that was installed in our premises by LIWAI.</p>
+      </div>
+    </div>
+  </div>
+  <!--Female Entrepreneurs -->
+  <div class="col">
+    <div class="card">
+      <img src="https://women-in-tech.org/wp-content/uploads/2021/08/moojan-womenintech.jpg" class="card-img-top" alt="supporting female entrepreneurs">
+      <div class="card-body">
+        <h5 class="card-title">Supporting Female Entrepreneurs</h5>
+        <p class="card-text">“I attended your WIT conference and I got connected with Deborah Crowe from the speed mentoring program. I hired her as my life and executive coach and it has changed my life. So thank you for your great initiative! .”</p>
+      </div>
+    </div>
+  </div>
+  <!--World Leaders -->
+  <div class="col">
+    <div class="card">
+      <img src="https://women-in-tech.org/wp-content/uploads/2021/08/kolinda-womenintech-story.jpg" class="card-img-top" alt="involving world leaders">
+      <div class="card-body">
+        <h5 class="card-title">Involving World leaders</h5>
+        <p class="card-text">“Thank you for organizing this summit Women in Tech. It’s an incredibly important topic. I hope that this will become an annual event that will evolve into a network of support, opportunities and of promoting female leadership in the whole South East Europe ”</p>
+      </div>
+    </div>
+  </div>
+</div>
+   </section>
+   <!--Women Network -->
+   <div class="container">
+    <div class="align-self-center"><h1>Women Tech Network</h1></div>
+    </div>
+   <div class="container">
+  <img src="https://www.womentech.net/sites/default/files/styles/cms_bootstrap_12_12/public/blog/images/3_talks_from_wtgc_2023-2.png?itok=PMxnBbyC" class="card-img" alt="purple background">
+     </div>
+   </div>
+  <!--FOOTER -->
+    <footer>
+          <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#impact">Impact</a></li>
+          </ul>
+          <span>Copyright 2023, Women In Tech</span>
+        </footer>
+  </body>
+</html>
